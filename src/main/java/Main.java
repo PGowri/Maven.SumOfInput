@@ -42,9 +42,9 @@ public class Main {
     
     
     // for Extra Credit
-    int gaussianSumOfNumbers(int n) {
-        return 0;
-    }
+//    int gaussianSumOfNumbers(int n) {
+//        return 0;
+//    }
 //
     // for Extra extra credit - compare the methods and show which one is faster
     // google "how to time some java code"
