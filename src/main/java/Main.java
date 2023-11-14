@@ -4,29 +4,29 @@
 import java.util.Scanner;
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-       int  number = getInputNumber();
-        
+        int number = getInputNumber();
+
         int sum = sumOfNumbers(number);
-        
+
         System.out.println(sum);
 
 
     }
-    
+
     // do this one and the lab is complete. really.
     // return the sum of 0 to n... if n == 3, the result should be 6
     static int sumOfNumbers(int number) {
-        int sum =0;
-        for (int i=number; i >= 0; i--) {
+        int sum = 0;
+        for (int i = number; i >= 0; i--) {
             sum = sum + i;
         }
-            System.out.println("the value is :" +sum);
+        System.out.println("the value is :" + sum);
         return sum;
     }
-    
-    
+
+
     static int getInputNumber() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter any number: ");
